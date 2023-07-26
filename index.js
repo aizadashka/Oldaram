@@ -53,5 +53,5 @@ function renderPosts() {
     postsContainer.innerHTML = result
 }
 
-
+window.onload = renderPosts
 
