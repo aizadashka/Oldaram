@@ -28,8 +28,6 @@ const posts = [
     }
 ]
 const postsContainer = document.getElementById("posts-container")
-const likesCounter = document.getElementsByClassName("likes")
-
 
 function renderPosts() {
     let result = ""
